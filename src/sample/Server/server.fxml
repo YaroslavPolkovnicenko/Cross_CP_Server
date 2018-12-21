@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1A4780;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Server.ServerController">
+
+    <children>
+
+        <TableView fx:id="table" layoutY="241.0" prefHeight="159.0" prefWidth="600.0">
+            <columns>
+                <TableColumn fx:id="type" prefWidth="94.0" text="Тип" />
+                <TableColumn fx:id="family" prefWidth="82.0" text="Фамилия" />
+                <TableColumn fx:id="age" prefWidth="94.0" text="Возраст" />
+                <TableColumn fx:id="experience" prefWidth="102.0" text="Стаж" />
+            </columns>
+        </TableView>
+      <AnchorPane layoutX="-9.0" layoutY="-4.0" prefHeight="91.0" prefWidth="610.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+              <Label layoutX="233.0" layoutY="16.0" text="Server" textFill="#1a4780">
+                  <font>
+                      <Font name="System Bold Italic" size="39.0" />
+                  </font>
+              </Label>
+         </children></AnchorPane>
+    </children>
+</AnchorPane>
